@@ -1,0 +1,413 @@
+{
+  "ano_vigencia": 2026,
+  "conferido_em": "2026-11-04",
+  "salario_minimo": 1621.0,
+  "irpf": {
+    "fonte": "Lei 11.482/2007 art. 1º XII (red. Lei 15.191/2025); Lei 15.270/2025; Receita, Tributação de 2026",
+    "mensal": {
+      "faixas": [
+        {
+          "ate": 2428.8,
+          "aliquota": 0.0,
+          "deduzir": 0.0
+        },
+        {
+          "ate": 2826.65,
+          "aliquota": 0.075,
+          "deduzir": 182.16
+        },
+        {
+          "ate": 3751.05,
+          "aliquota": 0.15,
+          "deduzir": 394.16
+        },
+        {
+          "ate": 4664.68,
+          "aliquota": 0.225,
+          "deduzir": 675.49
+        },
+        {
+          "ate": null,
+          "aliquota": 0.275,
+          "deduzir": 908.73
+        }
+      ],
+      "desconto_simplificado": 607.2,
+      "dependente": 189.59
+    },
+    "anual": {
+      "faixas": [
+        {
+          "ate": 29145.6,
+          "aliquota": 0.0,
+          "deduzir": 0.0
+        },
+        {
+          "ate": 33919.8,
+          "aliquota": 0.075,
+          "deduzir": 2185.92
+        },
+        {
+          "ate": 45012.6,
+          "aliquota": 0.15,
+          "deduzir": 4729.91
+        },
+        {
+          "ate": 55976.16,
+          "aliquota": 0.225,
+          "deduzir": 8105.85
+        },
+        {
+          "ate": null,
+          "aliquota": 0.275,
+          "deduzir": 10904.66
+        }
+      ],
+      "simplificado_pct": 0.2,
+      "simplificado_teto": 17640.0,
+      "dependente": 2275.08,
+      "educacao_por_pessoa": 3561.5,
+      "pgbl_limite": 0.12
+    },
+    "redutor_mensal": {
+      "limite": 5000.0,
+      "maximo": 312.89,
+      "transicao_ate": 7350.0,
+      "constante": 978.62,
+      "coeficiente": 0.133145
+    },
+    "redutor_anual": {
+      "limite": 60000.0,
+      "maximo": 2694.15,
+      "transicao_ate": 88200.0,
+      "constante": 8429.73,
+      "coeficiente": 0.095575
+    }
+  },
+  "irpfm": {
+    "fonte": "Lei 9.250 arts. 16-A e 16-B (red. Lei 15.270/2025); primeira apuração na DIRPF 2027",
+    "inicio": 600000.0,
+    "teto": 1200000.0,
+    "aliquota_max": 0.1
+  },
+  "dividendos": {
+    "fonte": "Lei 9.250 art. 6º-A (red. Lei 15.270/2025); P&R Receita altas rendas 19/12/2025",
+    "isento_ate_mes_por_fonte": 50000.0,
+    "irrf_aliquota": 0.1,
+    "nota": "10% sobre o TOTAL do mês quando passa de R$ 50 mil por PJ por PF; antecipação restituível se a renda anual não passar de R$ 600 mil"
+  },
+  "inss": {
+    "fonte": "Decreto 12.797/2025; Portaria Interministerial MPS/MF 13/2026",
+    "teto": 8475.55,
+    "socio_contribuinte_individual": 0.11,
+    "autonomo_plano_normal": 0.2,
+    "plano_simplificado": 0.11,
+    "patronal": 0.2
+  },
+  "ganho_capital": {
+    "fonte": "Lei 8.981/1995 art. 21 (red. Lei 13.259/2016)",
+    "faixas": [
+      {
+        "ate": 5000000.0,
+        "aliquota": 0.15
+      },
+      {
+        "ate": 10000000.0,
+        "aliquota": 0.175
+      },
+      {
+        "ate": 30000000.0,
+        "aliquota": 0.2
+      },
+      {
+        "ate": null,
+        "aliquota": 0.225
+      }
+    ]
+  },
+  "mei": {
+    "fonte": "LC 123/2006 art. 18-A; DAS 2026 com salário mínimo de R$ 1.621",
+    "teto_anual": 81000.0,
+    "das_servicos": 86.05,
+    "teto_anual_2027": 110000.0,
+    "nota": "Programador (6201-5/01, 6202-3/00, 6203-1/00) e consultor não podem ser MEI: atividade do Anexo V é vedada (LC 123 art. 18-A §4º; Res. CGSN 140 Anexo XI). Teto de R$ 110 mil em 2027 e R$ 140 mil em 2028 (LC 238/2026)."
+  },
+  "simples": {
+    "fonte": "LC 123/2006 Anexos III, IV e V (red. LC 155/2016)",
+    "teto": 4800000.0,
+    "sublimite_iss_icms": 3600000.0,
+    "fator_r_minimo": 0.28,
+    "anexos": {
+      "III": [
+        {
+          "ate": 180000,
+          "aliquota": 0.06,
+          "deduzir": 0
+        },
+        {
+          "ate": 360000,
+          "aliquota": 0.112,
+          "deduzir": 9360
+        },
+        {
+          "ate": 720000,
+          "aliquota": 0.135,
+          "deduzir": 17640
+        },
+        {
+          "ate": 1800000,
+          "aliquota": 0.16,
+          "deduzir": 35640
+        },
+        {
+          "ate": 3600000,
+          "aliquota": 0.21,
+          "deduzir": 125640
+        },
+        {
+          "ate": 4800000,
+          "aliquota": 0.33,
+          "deduzir": 648000
+        }
+      ],
+      "IV": [
+        {
+          "ate": 180000,
+          "aliquota": 0.045,
+          "deduzir": 0
+        },
+        {
+          "ate": 360000,
+          "aliquota": 0.09,
+          "deduzir": 8100
+        },
+        {
+          "ate": 720000,
+          "aliquota": 0.102,
+          "deduzir": 12420
+        },
+        {
+          "ate": 1800000,
+          "aliquota": 0.14,
+          "deduzir": 39780
+        },
+        {
+          "ate": 3600000,
+          "aliquota": 0.22,
+          "deduzir": 183780
+        },
+        {
+          "ate": 4800000,
+          "aliquota": 0.33,
+          "deduzir": 828000
+        }
+      ],
+      "V": [
+        {
+          "ate": 180000,
+          "aliquota": 0.155,
+          "deduzir": 0
+        },
+        {
+          "ate": 360000,
+          "aliquota": 0.18,
+          "deduzir": 4500
+        },
+        {
+          "ate": 720000,
+          "aliquota": 0.195,
+          "deduzir": 9900
+        },
+        {
+          "ate": 1800000,
+          "aliquota": 0.205,
+          "deduzir": 17100
+        },
+        {
+          "ate": 3600000,
+          "aliquota": 0.23,
+          "deduzir": 62100
+        },
+        {
+          "ate": 4800000,
+          "aliquota": 0.305,
+          "deduzir": 540000
+        }
+      ]
+    },
+    "partilha": {
+      "III": [
+        {
+          "IRPJ": 0.04,
+          "CSLL": 0.035,
+          "COFINS": 0.1282,
+          "PIS": 0.0278,
+          "CPP": 0.434,
+          "ISS": 0.335
+        },
+        {
+          "IRPJ": 0.04,
+          "CSLL": 0.035,
+          "COFINS": 0.1405,
+          "PIS": 0.0305,
+          "CPP": 0.434,
+          "ISS": 0.32
+        },
+        {
+          "IRPJ": 0.04,
+          "CSLL": 0.035,
+          "COFINS": 0.1364,
+          "PIS": 0.0296,
+          "CPP": 0.434,
+          "ISS": 0.325
+        },
+        {
+          "IRPJ": 0.04,
+          "CSLL": 0.035,
+          "COFINS": 0.1364,
+          "PIS": 0.0296,
+          "CPP": 0.434,
+          "ISS": 0.325
+        },
+        {
+          "IRPJ": 0.04,
+          "CSLL": 0.035,
+          "COFINS": 0.1282,
+          "PIS": 0.0278,
+          "CPP": 0.434,
+          "ISS": 0.335
+        },
+        {
+          "IRPJ": 0.35,
+          "CSLL": 0.15,
+          "COFINS": 0.1603,
+          "PIS": 0.0347,
+          "CPP": 0.305,
+          "ISS": 0.0
+        }
+      ],
+      "IV": [
+        {
+          "IRPJ": 0.188,
+          "CSLL": 0.152,
+          "COFINS": 0.1767,
+          "PIS": 0.0383,
+          "ISS": 0.445
+        },
+        {
+          "IRPJ": 0.198,
+          "CSLL": 0.152,
+          "COFINS": 0.2055,
+          "PIS": 0.0445,
+          "ISS": 0.4
+        },
+        {
+          "IRPJ": 0.208,
+          "CSLL": 0.152,
+          "COFINS": 0.1973,
+          "PIS": 0.0427,
+          "ISS": 0.4
+        },
+        {
+          "IRPJ": 0.178,
+          "CSLL": 0.192,
+          "COFINS": 0.189,
+          "PIS": 0.041,
+          "ISS": 0.4
+        },
+        {
+          "IRPJ": 0.188,
+          "CSLL": 0.192,
+          "COFINS": 0.1808,
+          "PIS": 0.0392,
+          "ISS": 0.4
+        },
+        {
+          "IRPJ": 0.535,
+          "CSLL": 0.215,
+          "COFINS": 0.2055,
+          "PIS": 0.0445,
+          "ISS": 0.0
+        }
+      ],
+      "V": [
+        {
+          "IRPJ": 0.25,
+          "CSLL": 0.15,
+          "COFINS": 0.141,
+          "PIS": 0.0305,
+          "CPP": 0.2885,
+          "ISS": 0.14
+        },
+        {
+          "IRPJ": 0.23,
+          "CSLL": 0.15,
+          "COFINS": 0.141,
+          "PIS": 0.0305,
+          "CPP": 0.2785,
+          "ISS": 0.17
+        },
+        {
+          "IRPJ": 0.24,
+          "CSLL": 0.15,
+          "COFINS": 0.1492,
+          "PIS": 0.0323,
+          "CPP": 0.2385,
+          "ISS": 0.19
+        },
+        {
+          "IRPJ": 0.21,
+          "CSLL": 0.15,
+          "COFINS": 0.1574,
+          "PIS": 0.0341,
+          "CPP": 0.2385,
+          "ISS": 0.21
+        },
+        {
+          "IRPJ": 0.23,
+          "CSLL": 0.125,
+          "COFINS": 0.141,
+          "PIS": 0.0305,
+          "CPP": 0.2385,
+          "ISS": 0.235
+        },
+        {
+          "IRPJ": 0.35,
+          "CSLL": 0.155,
+          "COFINS": 0.1644,
+          "PIS": 0.0356,
+          "CPP": 0.295,
+          "ISS": 0.0
+        }
+      ]
+    }
+  },
+  "presumido": {
+    "fonte": "Lei 9.249/1995 arts. 15 e 20; Lei 9.430/1996; LC 224/2025; Lei 9.250/1995 art. 40 (16% para prestadora até R$ 120 mil/ano)",
+    "presuncao_servicos": 0.32,
+    "irpj": 0.15,
+    "irpj_adicional": 0.1,
+    "adicional_limite_mensal": 20000.0,
+    "csll_aliquota": 0.09,
+    "pis": 0.0065,
+    "cofins": 0.03,
+    "lc224_limite_anual": 5000000.0,
+    "lc224_acrescimo": 0.1,
+    "presuncao_irpj_pequeno": 0.16,
+    "pequeno_limite_anual": 120000.0
+  },
+  "rio": {
+    "fonte": "Lei 691/1984 art. 33 (tabela oficial da SMF-Rio); IN SMF 16/2012",
+    "iss_geral": 0.05,
+    "iss_software_encomenda": 0.02,
+    "iss_porto_fundao_incubadora": 0.02,
+    "iss_padrao_ti": 0.05,
+    "nota": "SaaS, licença, suporte e consultoria pagam 5%; software sob encomenda com cessão de direitos paga 2%; Porto Maravilha, Parque Tecnológico da UFRJ e incubadora pagam 2% no item 1 inteiro, com estabelecimento real. No Simples o ISS vem da partilha do DAS."
+  },
+  "reforma_2027": {
+    "fonte": "ADCT arts. 126-127; LC 214/2025 arts. 349 e 353; TCU 28/10/2026 (11,3%), Senado fixa até 15/12/2026",
+    "cbs": 0.112,
+    "ibs": 0.001,
+    "conferido": "provisório: confirmar a resolução do Senado"
+  }
+}
