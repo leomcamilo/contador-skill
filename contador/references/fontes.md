@@ -1,5 +1,7 @@
 # Fontes para conferir
 
+Esta skill: github.com/leomcamilo/contador-skill. Correção confirmada em fonte oficial se publica com `scripts/publicar.sh` (ver seção 8 do SKILL.md).
+
 Ordem de confiança: lei no Planalto ou no diário oficial > ato da Receita, da SEFAZ-RJ ou da Prefeitura > Perguntão oficial > portal contábil. Portal contábil serve para achar a norma, não para citar como fonte.
 
 ## Federal
